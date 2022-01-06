@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "544531102417",
+    "project_id": "coum-tech-app",
+    "storage_bucket": "coum-tech-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544531102417:android:2c5dd6b54cb3d1435ae3f0",
+        "android_client_info": {
+          "package_name": "com.coum.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544531102417-rao6t9bl01iqh1l13u4jvc44h22mudh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coum.android",
+            "certificate_hash": "1ff85ed9557e4753f5df257cf8c35ed51c93f6cd"
+          }
+        },
+        {
+          "client_id": "544531102417-vdk1rla4l2qddvd035m45l5edvabi11m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD82XrfDbt7XmlwcUb2VpQC1diqsffLLMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544531102417-vdk1rla4l2qddvd035m45l5edvabi11m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "544531102417-clbsk42usi7oekvv8n6kt1osoudgv7pb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coum.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

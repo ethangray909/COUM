@@ -1,0 +1,15 @@
+Things removed from the project:
+1)Snackbar
+2)not sending deivceInfo in login
+
+
+line 9: library issue as well => bec the library is working on pixel device but not on QA device
+
+packages changed: 
+"@react-native-firebase/app": "^12.8.0",
+"@react-native-firebase/analytics": "^12.8.0",
+"@react-native-firebase/messaging": "^12.8.0",
+
+"@react-native-firebase/database": "^13.0.1",
+
+"react-native-webview": "^11.15.0",

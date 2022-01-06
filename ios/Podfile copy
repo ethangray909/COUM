@@ -1,0 +1,38 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '13.0'
+
+target 'COUM' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'Stripe', '~> 21.3.1'
+  pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
+
+  target 'COUMTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  
+  # use_flipper!({ 'Flipper' => '0.74.0' })
+  # post_install do |installer|
+  #   flipper_post_install(installer)
+  # end
+end
+
+target 'COUM-tvOS' do
+  # Pods for COUM-tvOS
+
+  target 'COUM-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
